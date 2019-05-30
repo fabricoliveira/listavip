@@ -21,6 +21,13 @@ public class ListavipApplication {
 		dataSource.setUrl("jdbc:mysql://localhost:3306/viplist");
 		dataSource.setUsername("root");
 		dataSource.setPassword("novadata");
+		
+//		dataSource.setDriverClassName("org.postgresql.Driver");
+//		dataSource.setUrl("jdbc:postgresql://localhost:5432/viplist");
+//		dataSource.setUsername("root");
+//		dataSource.setPassword("root");
+		
+		
 		return dataSource;
 	}
 
